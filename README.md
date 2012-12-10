@@ -24,14 +24,17 @@ Running:
 ```
 Produces following output:
 
+```bash
 Finding number of publications in year 1983... found 18
 Finding number of publications in year 1984... found 19
 [...]
 Finding number of publications in year 2011... found 823
 
 Saving plot to trend_1983_2011.pdf.
+```
 
 This is the result:
+
 ![Result](https://raw.github.com/funsim/GoogleScholarTrends/master/trend_1983_2011.jpg)
 
 
