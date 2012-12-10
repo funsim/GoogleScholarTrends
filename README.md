@@ -1,5 +1,6 @@
 # GoogleScholarTrend
 A simple trend plot generator that plots the number publications that contain specific key words on a time plot. 
+![Result](https://raw.github.com/funsim/GoogleScholarTrends/master/results/trend_1983_2011.jpg)
 
 Usage
 =====
