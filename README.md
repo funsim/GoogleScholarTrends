@@ -31,9 +31,8 @@ Finding number of publications in year 2011... found 823
 
 Saving plot to trend_1983_2011.pdf.
 
-The resulting PDF looks like this:
-
-![Result]()
+This is the result:
+![Result](https://raw.github.com/funsim/GoogleScholarTrends/master/trend_1983_2011.jpg)
 
 
 
