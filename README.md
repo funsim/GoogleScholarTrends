@@ -38,7 +38,7 @@ Saving plot to trend_1983_2011.pdf.
 
 This is the result:
 
-![Result](https://raw.github.com/funsim/GoogleScholarTrends/master/trend_1983_2011.jpg)
+![Result](https://raw.github.com/funsim/GoogleScholarTrends/master/results/trend_1983_2011.jpg)
 
 
 
