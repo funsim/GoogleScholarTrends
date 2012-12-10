@@ -16,6 +16,9 @@ def main():
     parser.add_option("-s", "--start-year", dest="startyear", type = int, help="year at which trend starts", default = 1990)
     parser.add_option("-f", "--final-year", dest="finalyear", type = int, help="year at which trend stops", default = 2012)
     (options, args) = parser.parse_args()
+    if not options.searchterm:
+        print "You need to provide a search term. Run 'google_scholar_trend.py -h' for help."
+        sys.exit(1)
 
     results = []
     for year in range(options.startyear, options.finalyear + 1):
