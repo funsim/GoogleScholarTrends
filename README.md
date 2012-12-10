@@ -3,6 +3,8 @@ A simple trend plot generator that plots the number publications that contain sp
 
 Usage
 =====
+
+```bash
 python google_scholar_tren .py [options]
 
 Options:
@@ -13,6 +15,7 @@ Options:
                         year at which trend starts
   -f FINALYEAR, --final-year=FINALYEAR
                         year at which trend stops
+```
 
 
 Example
