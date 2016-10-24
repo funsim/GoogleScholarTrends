@@ -41,7 +41,7 @@ def save_plot(results, searchterm):
     plt.gca().xaxis.set_major_locator(mdates.YearLocator())
     dates = array([matplotlib.dates.date2num(datetime.datetime(y,1,1)) for y in years])
     ax1.plot_date(dates, nb_results, "ro", label = searchterm)
-    ax1.legend()
+    ax1.legend(loc="upper left")
     print "Saving plot to %s." % (filename + "." + fileformat)
     plt.savefig(filename + "." + fileformat)
 
